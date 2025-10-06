@@ -1,1 +1,11 @@
-"# eco-grid-NASA-Space-Apps-Challenge-2025" 
+"# eco-grid-NASA-Space-Apps-Challenge-2025"
+
+
+* ****How It Works:**** EcoGrid is a strategy simulation game where players start with a plot of land in a real-world region selected from a global map. The game then fetches near-real-time NASA data for that specific location—including soil moisture from ****SMAP**** , vegetation health from  ****MODIS**** , and rainfall from  ****GPM**** —to generate a dynamic scenario like a drought or a heatwave. Players must then execute the core gameplay loop of****Plant -> Irrigate -> Harvest**** within a time limit, making strategic decisions to ensure their farm thrives. Success is measured by yield and a sustainability score, and making positive choices unlocks more land.
+* ****Benefits & Impact:**** The primary benefit of EcoGrid is translating complex scientific data into a simple, interactive cause-and-effect system. This fosters a deeper understanding of sustainable agriculture and the impact of climate change. The intended impact is to serve as an engaging educational tool for schools, environmental programs, and the general public, making Earth science education an interactive experience for everyone.
+* ****Technology Used:**** The game was developed using the  ****Unity Engine (v. 6.2)**** , with all scripting done in  ****C#**** .
+* ****Creative Approach:**** Our project's creativity lies in its gamified approach to scientific education. Instead of presenting users with charts and graphs, we allow them to  **play with the data** . By wrapping the experience in a nostalgic, retro pixel art style, we make the serious topic of climate change accessible and engaging to a broad audience. The dynamic timer, which adjusts based on real daily temperature data, is a unique feature that directly connects gameplay urgency to real-world climate conditions.
+* ****Factors Considered:**** Our team focused on bridging the critical "Awareness Gap" and "Action Gap" that separates the public from NASA's invaluable data. We designed a careful difficulty progression, starting with two datasets and scaling up to six, to ensure players learn complex concepts gradually without feeling overwhelmed.
+
+Add weather_data.csv to @/Assets/Resources
+[Link to Weather Data](https://www.kaggle.com/datasets/sheemazain/weather-data-2024/data)
